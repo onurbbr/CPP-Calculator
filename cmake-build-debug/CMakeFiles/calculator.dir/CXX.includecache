@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/calculator/main.cpp
+stdio.h
+-
+locale.h
+-
+math.h
+-
+stdlib.h
+-
+zconf.h
+-
+
