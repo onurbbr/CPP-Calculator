@@ -12,6 +12,7 @@
         int kaydet = 0, secenek, secenek2, secenek3, toplama = 0, cikartma = 0, carpma = 0;
         int bolme = 0, modalma = 0, kuvvetalma = 0, kokalma = 0, sayi1 = 0, sayi2 = 0, sonuc;
         int i, faktoriyel = 1;
+	system("clear");
         printf("Hoşgeldiniz!\n");
         printf("Lütfen işlem yapacağınız 1. sayınızı giriniz: ");
         yeniislem:
@@ -24,16 +25,15 @@
         printf("3- Çarpma\n");
         printf("4- Bölme\n");
         printf("5- Mod Alma\n");
-        printf("6- n. dereceden kök alma\n");
-        printf("7- n. dereceden kuvvetini alma\n");
-        printf("8- Girilen sayının Karekök değerini alma\n");
-        printf("9- Girilen sayının Küpkök değerini alma\n");
-        printf("10- Girilen sayının Sinüs değerini alma\n");
-        printf("11- Girilen sayının Kosinüs değerini alma\n");
-        printf("12- Girilen sayının Tanjant değerini alma\n");
-        printf("13- Girilen sayının Kotanjant değerini alma\n");
-        printf("14- Girilen sayının Faktöriyel değerini alma\n");
-        printf("15- İşlem'i iptal etme\n\n");
+        printf("6- n. dereceden kuvvetini alma\n");
+        printf("7- Girilen sayının Karekök değerini alma\n");
+        printf("8- Girilen sayının Küpkök değerini alma\n");
+        printf("9- Girilen sayının Sinüs değerini alma\n");
+        printf("10- Girilen sayının Kosinüs değerini alma\n");
+        printf("11- Girilen sayının Tanjant değerini alma\n");
+        printf("12- Girilen sayının Kotanjant değerini alma\n");
+        printf("13- Girilen sayının Faktöriyel değerini alma\n");
+        printf("14- İşlem'i iptal etme\n\n");
         printf("Yapacağınız işlemi 1-7 sayı aralığında lütfen yazınız: ");
         scanf("%d", &secenek);
         if (secenek == 1) {
