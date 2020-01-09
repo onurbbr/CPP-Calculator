@@ -33,7 +33,7 @@
         printf("11- Girilen sayının Tanjant değerini alma\n");
         printf("12- Girilen sayının Kotanjant değerini alma\n");
         printf("13- Girilen sayının Faktöriyel değerini alma\n");
-        printf("14- İşlem'i iptal etme\n\n");
+        printf("14- İşlemi iptal etme\n\n");
         printf("Yapacağınız işlemi 1-7 sayı aralığında lütfen yazınız: ");
         scanf("%d", &secenek);
         if (secenek == 1) {
