@@ -74,8 +74,6 @@
                 sonuc1 = sonuc1 * sayi1; //Bu işlemin kısası sonuc *= sayi;
             }
             printf("Sonuc= %d\n", sonuc1);
-
-
         } else if (secenek == 7) {
             int karekok = 0;
             karekok += sayi1 * sayi1;
